@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kid like to cycle" />
+    <meta name="keywords content=" Kid like to cycle" />
+    <meta name="author" content="We love cycling" />
+    <title>KidBike</title>
+    <style>
+      body {
+        font: 15px/1.5 Arial, Lato;
+        padding: 0;
+        margin: 0;
+        background-color: rgb(0, 255, 234);
+      }
+
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+
+      /*  Global  */
+      header {
+        background: black;
+        padding-top: 30px;
+        min-height: 70x;
+        border-bottom: red 3px solid;
+      }
+
+      header a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: bold;
+      }
+
+      header ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      header li {
+        display: inline;
+        padding: 0 20px 0 20px;
+        justify-content: space-around;
+        flex-direction: row;
+      }
+
+      header #branding {
+        float: left;
+      }
+
+      header #branding h1 {
+        margin: 0;
+        padding: 0;
+      }
+
+      header nav {
+        display: inline;
+        flex-direction: row;
+        display: flex;
+        justify-content: right;
+        margin-top: 10px;
+      }
+
+      header .highlight,
+      header .current a {
+        color: green;
+      }
+
+      header a:hover {
+        color: yellow;
+        letter-spacing: 0.05%;
+      }
+
+      #showcase {
+        background: url("./assets/images/about.html.jpg");
+        min-height: 80vh;
+        text-align: center;
+        color: black;
+      }
+
+      a[href="signup.html"] .signup {
+        color: blue;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+      }
+
+      a[href="signup.html"] {
+        text-decoration: none;
+      }
+
+      a[href="signup.html"]:hover .signup {
+        color: whitesmoke;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+      }
+
+      .about-section {
+        max-width: 1300px;
+        text-align: center;
+        margin-bottom: 40px;
+        background-color: white;
+      }
+
+      .about-section h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .about-section p {
+        font-size: 16px;
+      }
+
+      .team-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      /* image div and text besides eachother*/
+
+      .contain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* Two columns with equal width */
+        grid-gap: 20px;
+        max-width: 1300px;
+
+        margin-bottom: 40px;
+      }
+
+      .image-container,
+      .text-container {
+        padding: 20px;
+        background-color: #f0f0f0;
+        flex: 1;
+      }
+
+      .image-container img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .text-container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .text-container p {
+        font-size: 16px;
+      }
+
+      /* Media Query for screens smaller than 768px width */
+      @media (max-width: 1200px) {
+        .container {
+          grid-template-columns: 1fr;
+          /* Single column for smaller screens */
+        }
+      }
+
+      @media (max-width: 768px) {
+        /* Adjust the image for smaller screens */
+        #my-image {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          /* Reduce the maximum width for smaller screens */
+        }
+      }
+
+      .team-member {
+        max-width: 300px;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+      }
+
+      .team-member img {
+        width: 150px;
+        height: 80px;
+
+        object-fit: auto;
+        margin-bottom: 10px;
+      }
+
+      .team-member h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
+      .team-member p {
+        font-size: 14px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+</html>
