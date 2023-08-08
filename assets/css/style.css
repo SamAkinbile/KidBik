@@ -1,0 +1,250 @@
+body {
+    font: 15px/1.5 Arial, Lato;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 255, 234);
+    ;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*  Global  */
+header {
+    background: black;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70x;
+    border-bottom: #e8491d 3px solid;
+
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+header li {
+
+    display: inline;
+    padding: 0 20px 0 20px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+header #branding {
+    float: left;
+
+}
+
+header #branding h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: inline;
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+
+}
+
+header .highlight,
+header .current a {
+    color: green;
+}
+
+header a:hover {
+    color: yellow;
+    letter-spacing: 0.05%;
+}
+
+.showcase {
+    min-height: 80vh;
+    background: url('../images/funny-kid-rain-boots-playing-rain-park (1).jpg') no-repeat center;
+
+}
+
+#clubethos {
+    display: flex;
+    flex-wrap: wrap;
+    /* To wrap the items to a new line when the container becomes too narrow */
+    justify-content: space-between;
+    /* To distribute the items with equal spacing between them */
+
+}
+
+
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+
+}
+
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    flex: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/wepik-export-202308081734538zqe.jpeg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Sign up now...*/
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+/* Add hover effect */
+a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+/* Media query for screens up to 768 pixels wide */
+@media (max-width: 1200px) {
+
+    /* Adjust the layout for smaller screens here */
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header ul {
+        margin-top: 20px;
+    }
+
+    header li {
+        padding: 10px 0;
+    }
+
+    footer {
+        height: 1200px;
+
+    }
+
+    /* ... (Additional adjustments for smaller screens) ... */
+}
+
+
+
+/* footer */
+
+
+
+footer {
+
+    background-color: black;
+    border-top: #e8491d 3px solid;
+
+    color: #fff;
+
+    padding: 20px;
+    padding-bottom: 20px;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+footer nav {
+
+    flex-direction: row;
+    display: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: white;
+    display: inline;
+    padding: 0 20px 0 20px;
+    justify-content: space-around;
+    flex-direction: row;
+}
