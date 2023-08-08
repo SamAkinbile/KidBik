@@ -75,7 +75,8 @@ header a:hover {
 
 .showcase {
     min-height: 80vh;
-    background: url('../images/home.jpeg') no-repeat center 3px;
+    background: url('../images/home.jpeg') no-repeat center 2px;
+    width: 100%;
 
 }
 
@@ -93,8 +94,7 @@ header a:hover {
 #left-about {
     padding-top: 30px;
     width: 33%;
-    padding-left: 30px;
-
+    padding-left: 8%
 }
 
 
@@ -103,13 +103,13 @@ header a:hover {
     width: 33%;
     text-align: center;
 
-
 }
 
 
 #center-about {
     width: 33%;
     margin: 0 auto;
+    padding-top: 40px;
 
 }
 
@@ -153,13 +153,14 @@ hr {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+
 }
 
 #circle-cover-bg {
     background: url('../images/wepik-export-202308081734538zqe.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
-    padding-top: 20px;
+
 }
 
 /* Sign up now...*/
@@ -175,18 +176,21 @@ a {
 /* Add hover effect */
 a:hover {
     text-decoration: underline;
+    color: yellow;
+    font-weight: bold;
 
 }
 
 
 
-/* Media query for screens up to 768 pixels wide */
+/* Media query for screens up to 1200 pixels wide */
 @media (max-width: 1200px) {
 
     /* Adjust the layout for smaller screens here */
     header {
         flex-direction: column;
         text-align: center;
+        display: flex
     }
 
     header ul {
@@ -204,6 +208,42 @@ a:hover {
 
     /* ... (Additional adjustments for smaller screens) ... */
 }
+
+
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        display: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        display: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+
 
 
 
