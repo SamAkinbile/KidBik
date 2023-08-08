@@ -75,8 +75,8 @@ header a:hover {
 
 .showcase {
     min-height: 80vh;
-    background: url('../images/home.jpeg') no-repeat center 2px;
-    width: 100%;
+    background: url('../images/home.jpeg') no-repeat center 9px;
+
 
 }
 
@@ -188,9 +188,10 @@ a:hover {
 
     /* Adjust the layout for smaller screens here */
     header {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
-        display: flex
+        display: flex;
+
     }
 
     header ul {
@@ -199,6 +200,11 @@ a:hover {
 
     header li {
         padding: 10px 0;
+    }
+
+    .showcase {
+        width: 100%;
+
     }
 
     footer {
