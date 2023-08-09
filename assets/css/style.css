@@ -166,7 +166,7 @@ hr {
 /* Sign up now...*/
 
 a {
-    color: black;
+    text-decoration-color: blue;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
@@ -282,17 +282,4 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
-}
-
-footer nav {
-
-    flex-direction: row;
-    display: center;
-    justify-content: center;
-    margin-bottom: 5px;
-    color: white;
-    display: inline;
-    padding: 0 20px 0 20px;
-    justify-content: space-around;
-    flex-direction: row;
 }
