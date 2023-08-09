@@ -142,13 +142,16 @@
       .text-container {
         padding: 20px;
         background-color: #f0f0f0;
-        flex: 1;
+        flex: 1 1;
       }
 
       .image-container img {
         max-width: 100%;
         height: auto;
-        display: block;
+      
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
       }
 
       .text-container h2 {
@@ -160,23 +163,115 @@
         font-size: 16px;
       }
 
-      /* Media Query for screens smaller than 768px width */
-      @media (max-width: 1200px) {
-        .container {
-          grid-template-columns: 1fr;
-          /* Single column for smaller screens */
-        }
-      }
+   
+    
 
       @media (max-width: 768px) {
         /* Adjust the image for smaller screens */
         #my-image {
           max-width: 100%;
           height: auto;
-          display: block;
+          display: block;}
           /* Reduce the maximum width for smaller screens */
+    
         }
-      }
+
+
+
+/* Media Query for screens smaller than 768px (mobile and tablet) */
+@media screen and (max-width: 768px) {
+
+  /* Adjust the container width and margin for smaller screens */
+  .container {
+    width: 90%;
+  }
+
+  /* Adjust header styles for smaller screens */
+  header {
+    padding-top: 20px;
+    min-height: auto;
+  }
+
+  header li {
+    padding: 10px 10px;
+  }
+
+  #my-image {
+    max-width: 100%;
+    height: 80%;
+   
+    margin: 10px 10px; /* Center the image horizontally */
+  }
+
+  /* Adjust showcase styles for smaller screens */
+  #showcase {
+    min-height: 50vh;
+    padding: 30px 0;width: 100%;
+        background-size: cover;
+        background-position: center center;
+  }
+
+  /* Adjust text styles in the about section */
+  .about-section h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .about-section p {
+    font-size: 14px;
+  }
+
+  /* Adjust team member styles */
+  .team-member {
+    max-width: 90%;
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .team-member img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 3px;
+  }
+
+  .team-member h3 {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+
+  .team-member p {
+    font-size: 12px;
+  }
+
+   #my-image {
+       
+          height: auto;
+       
+          max-width: 100%;
+ 
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+        }
+
+  /* Adjust footer styles */
+  footer {
+    padding: 15px;
+    padding-bottom: 15px;
+  }
+
+  .social-networks i {
+    font-size: 140%;
+    margin: 2%;
+    padding: 3%;
+  }
+
+}
+
+
+
+
+
+      
          main {
         display: flex;
         flex-direction: column;

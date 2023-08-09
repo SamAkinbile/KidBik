@@ -258,7 +258,13 @@ a:hover {
     }
 
     hr {
-        display: none;
+        display: block;
+        width: 60%;
+        /* Adjust the width as needed */
+        margin: 20px auto;
+        /* Center the <hr> element */
+        border: none;
+        border-top: 1px solid #3a3a3a;
     }
 
     footer {
