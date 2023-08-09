@@ -14,7 +14,7 @@
             font: 15px/1.5 Arial, Lato;
             padding: 0;
             margin: 0;
-            background-color: red;
+            background-color: white;
         }
 
         .container {
@@ -25,7 +25,7 @@
 
         /*  Global  */
         header {
-            background: #35424a;
+            background: black;
             color: #ffffff;
             padding-top: 30px;
             min-height: 70x;
@@ -114,6 +114,7 @@
             border-radius: 5px;
             cursor: pointer;
             font-weight: bold;
+            margin-bottom:10%;
 
 
         }
@@ -122,6 +123,7 @@
             display: flex;
             justify-content: space-between;
             margin-top: 20px;
+            margin-bottom: 10px;
         }
 
         .service-option {
@@ -146,6 +148,40 @@
                 margin-bottom: 10px;
             }
         }
+
+/* footer */
+
+
+
+footer {
+
+    background-color: black;
+    border-top: #e8491d 3px solid;
+
+    color: #fff;
+
+    padding: 20px;
+    padding-bottom: 20px;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+
     </style>
 </head>
 
@@ -210,6 +246,33 @@
                 <input type="submit" value="Sign Me Up">
             </form>
         </div>
+
+<footer>
+    <ul class="social-networks">
+        <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+        </li>
+        <li>
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+        </li>
+    </ul>
+    </div>
+
+</footer>
+
+<!-- font awesome script -->
+<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+
     </body>
 
 </html>
