@@ -166,7 +166,7 @@ hr {
 /* Sign up now...*/
 
 a {
-    text-decoration-color: blue;
+
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
@@ -176,7 +176,7 @@ a {
 /* Add hover effect */
 a:hover {
     text-decoration: underline;
-    color: yellow;
+    color: gold;
     font-weight: bold;
 
 }
