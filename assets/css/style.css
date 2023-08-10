@@ -164,119 +164,109 @@ a:hover {
     font-weight: bold;
 }
 
+/* Media Query for tablet and mobile views */
+@media (max-width: 768px) {
 
-/* Media query for screens up to 1200 pixels wide */
-@media (max-width: 1200px) {
-
-    /* Adjust the layout for smaller screens here */
+    /* Center align the header items */
     header {
-        flex-direction: column;
-        align-items: left;
-        justify-content: left;
-        /* Align header content vertically */
-        text-align: left;
+        text-align: center;
     }
 
+    /* Adjust header navigation links */
     header ul {
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
+    /* Adjust header h1 */
+    header h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* Remove the float from header branding */
+    #branding {
+        float: none;
+        margin: 20px 0;
+    }
+
+    /* Adjust header navigation links */
     header li {
         display: block;
-        text-align: left;
-        padding: 10px 0;
-
-    }
-
-    header nav {
-
-        display: block;
-        text-align: left;
-        padding: 10px 0;
-
-
-    }
-
-
-
-    header #branding h1 {
-
-        text-align: left;
-        display: block;
-
-
-
-
-
-    }
-
-    .showcase {
-        width: 100%;
-        background-size: cover;
-        background-position: center center;
-    }
-
-    .container {
-        width: 90%;
         text-align: center;
-        display: block;
-        padding: 10px 0;
-        text-align: center;
-
+        padding: 10px 0px;
     }
-
-    #clubethos {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 20%;
-
-    }
-
-    #left-about,
-    #right-about,
-    #center-about {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-        align-items: center;
-        margin-left: 20%;
-
-
-    }
-
-    #center-about,
-
-    #circle-container {
-        margin-right: 20%;
-
-    }
-
-    .right-about-heading h2 {
-        text-align: center;
-        margin-left: 20%;
-    }
-
-    .right-about-heading p {
-        text-align: center;
-        margin-left: 20%;
-    }
-
-    hr {
-        display: block;
-        width: 60%;
-        /* Adjust the width as needed */
-        margin: 20px auto;
-        /* Center the <hr> element */
-        border: none;
-        border-top: 1px solid #3a3a3a;
-    }
-
-    footer {
-        height: auto;
-    }
-
-    /* ... (Additional adjustments for smaller screens) ... */
 }
+
+
+
+.showcase {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    width: 90%;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+#clubethos {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+
+}
+
+#left-about,
+#right-about,
+#center-about {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    margin-left: 20%;
+
+
+}
+
+#center-about,
+
+#circle-container {
+    margin-right: 24%;
+    padding-bottom: 5%;
+
+}
+
+.right-about-heading h2 {
+    text-align: center;
+    margin-left: 20%;
+}
+
+.right-about-heading p {
+    text-align: center;
+    margin-left: 20%;
+}
+
+hr {
+    display: block;
+    width: 60%;
+    /* Adjust the width as needed */
+    margin: 20px auto;
+    /* Center the <hr> element */
+    border: none;
+    border-top: 1px solid #3a3a3a;
+}
+
+footer {
+    height: auto;
+}
+
+/* ... (Additional adjustments for smaller screens) ... */
+
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 768px) {
@@ -293,9 +283,7 @@ a:hover {
         text-align: center;
     }
 
-    header li {
-        padding: 8px 0;
-    }
+
 
     .container {
         width: 95%;

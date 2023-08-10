@@ -200,36 +200,38 @@
     width: 90%;
   }
 
-  /* Adjust header styles for smaller screens */
-  header {
-   text-align: left;
-  }
+  /* Media Query for tablet and mobile views */
+@media (max-width: 768px) {
+    /* Center align the header items */
+    header {
+        text-align: center;
+    }
 
-  header nav {
-    display: block;
-    margin-top: 10px;
-  }
-  header ul {
-   margin-top: 20px;
-  }
+    /* Adjust header navigation links */
+    header ul {
+        margin-top: 20px;
+    }
 
+    /* Adjust header h1 */
+    header h1 {
+        font-size: 24px;
+        text-align: center;
+    }
 
-  header li {
-    display: block;
-        text-align: left;
-        padding: 20px 0;
-  }
+    /* Remove the float from header branding */
+    #branding {
+        float: none;
+        margin: 20px 0;
+    }
 
-  #branding {
-    float: none;
-    margin-bottom: 20px;
-    
-  }
+    /* Adjust header navigation links */
+    header li {
+        display: block;
+        text-align: center;
+        padding: 10px 0px;
+    }
+}
 
-   header h1 {
-    font-size: 24px;
-    text-align: left;
-  }
 
 
   #my-image {
