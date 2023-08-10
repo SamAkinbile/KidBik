@@ -110,43 +110,63 @@
             background-color:blueviolet;
             color: #fff;
             border: none;
-            padding: 20px 600px;
+            padding: 20px 380px;
             border-radius: 5px;
             cursor: pointer;
             font-weight: bold;
-            margin-bottom:10%;
+            margin-bottom: 15%;
+             transition: background-color 0.3s ease; 
 
+        }
+input[type="submit"]:hover {
+  background-color: gold; /* Button background color on hover */
+}
+
+        .sign{
+       display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust as needed */
+  padding: 20px 0;
 
         }
 
-        .service-options {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
+    
+    
 
-        .service-option {
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            text-align: center;
-            width: 48%;
-        }
-
+     
+      
         @media (max-width: 480px) {
             .container {
                 padding: 10px;
             }
 
-            .service-options {
-                flex-direction: column;
-            }
+    
 
-            .service-option {
-                width: 100%;
-                margin-bottom: 10px;
-            }
+            input[type="submit"] {
+            background-color:blueviolet;
+            color: #fff;
+            border: none;
+           margin-top: 30px; 
+    padding: 20px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-bottom: 15%;
+             transition: background-color 0.3s ease; 
+             font-size: 14px;
+
+        }
+input[type="submit"]:hover {
+  background-color: gold; /* Button background color on hover */
+}
+
+        .sign{
+           display: flex;
+  justify-content: center;
+  margin-top: 20px
+
+
+        }
+           
         }
 
 /* footer */
@@ -233,17 +253,11 @@ footer {
                     <label for="phone">Contact Phone Number:</label>
                     <input type="tel" id="phone" placeholder="Enter your phone number" required>
                 </div>
-                <div class="service-options">
-                    <div class="service-option">
-                        <label for="standard">Standard [100]:</label>
-                        <p>This is where we help your kids learn to cycle within 1 to 2 years.</p>
-                    </div>
-                    <div class="service-option">
-                        <label for="platinum">Platinum [180]:</label>
-                        <p>This is a premium service where we help your kids cycle in just 7 months.</p>
-                    </div>
+               
                 </div>
+                <div class="sign">
                 <input type="submit" value="Sign Me Up">
+                </div>
             </form>
         </div>
 
