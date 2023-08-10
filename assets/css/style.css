@@ -174,13 +174,13 @@ a:hover {
     }
 
     header ul {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     header li {
         display: block;
         text-align: left;
-        padding: 20px 0;
+        padding: 10px 0;
 
     }
 
@@ -188,7 +188,7 @@ a:hover {
 
         display: block;
         text-align: left;
-        padding: 20px 0;
+        padding: 10px 0;
 
 
     }

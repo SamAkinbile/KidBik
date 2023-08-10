@@ -122,33 +122,66 @@ input[type="submit"]:hover {
   background-color: gold; /* Button background color on hover */
 }
 
-        .sign{
-       display: flex;
+.sign{
+display: flex;
   justify-content: center;
   margin-top: 20px; /* Adjust as needed */
   padding: 20px 0;
 
-        }
+}
+
+
+
+/* Media Query for tablet and mobile views */
+@media (max-width: 768px) {
+  /* Center align the header items */
+  header {
+    text-align: left;
+  }
+
+  /* Adjust the navigation for better mobile layout */
+  header nav {
+    display: block;
+    margin-top: 10px;
+  }
+
+  /* Adjust header logo */
+  #branding {
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust header navigation links */
+  header ul {
+   margin-top: 20px;
+  }
+
+  header li {
+   display: block;
+        text-align: left;
+        padding: 20px 0;
+  }
+
+  /* Adjust header h1 */
+  header h1 {
+    font-size: 24px;
+  }
+
+
+   
+ .container {
+padding: 10px;
+  }
 
     
-    
 
-     
-      
-        @media (max-width: 480px) {
-            .container {
-                padding: 10px;
-            }
-
-    
-
-            input[type="submit"] {
-            background-color:blueviolet;
-            color: #fff;
-            border: none;
-           margin-top: 30px; 
+ input[type="submit"] {
+    background-color:blueviolet;
+     color: #fff;
+    border: none;
+    margin-top: 30px; 
     padding: 20px 20px;
-            cursor: pointer;
+     cursor: pointer;
             font-weight: bold;
             margin-bottom: 15%;
              transition: background-color 0.3s ease; 
@@ -166,8 +199,9 @@ input[type="submit"]:hover {
 
 
         }
+    }
            
-        }
+    
 
 /* footer */
 
