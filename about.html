@@ -77,10 +77,12 @@
       }
 
       #showcase {
-        background: url("./assets/images/about.html (2).jpg") no-repeat;
+        background: url("./assets/images/about.me.jpg") no-repeat;
         min-height: 80vh;
-        text-align: center;
+        max-height: 80vh;
+      
         color: black;
+        
       }
 
       a[href="signup.html"] .signup {
@@ -173,6 +175,9 @@
       }
 
    
+
+
+
     
 
       @media (max-width: 768px) {
@@ -197,21 +202,41 @@
 
   /* Adjust header styles for smaller screens */
   header {
-    padding-top: 20px;
-    min-height: auto;
+   text-align: left;
   }
 
-  header li {
-    padding: 10px 10px;
+  header nav {
+    display: block;
+    margin-top: 10px;
   }
+  header ul {
+   margin-top: 20px;
+  }
+
+
+  header li {
+    display: block;
+        text-align: left;
+        padding: 20px 0;
+  }
+
+  #branding {
+    float: none;
+    margin-bottom: 20px;
+    
+  }
+
+   header h1 {
+    font-size: 24px;
+    text-align: left;
+  }
+
 
   #my-image {
     max-width: 100%;
-   
 
-    max-width: 100%;
         height: auto;
-      
+    
         width: 100%;
         background-size: cover;
         background-position: center center;
@@ -440,9 +465,9 @@ footer {
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="about.html">About</a></li>
+                    </li><a href="signup.html">Sign Up</a></li>
                 </ul>
             </nav>
         </div>

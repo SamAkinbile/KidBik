@@ -96,6 +96,8 @@ header a:hover {
     width: 33%;
     margin: 0 auto;
     padding-top: 40px;
+    margin-right: 10%;
+
 }
 
 hr {
@@ -137,12 +139,14 @@ hr {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+
 }
 
 #circle-cover-bg {
     background: url("../images/wepik-export-202308081734538zqe.jpeg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    align-items: center;
 }
 
 /* Sign up now...*/
