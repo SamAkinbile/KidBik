@@ -180,16 +180,7 @@
 
     
 
-      @media (max-width: 768px) {
-        /* Adjust the image for smaller screens */
-        #my-image {
-          max-width: 100%;
-          height: auto;
-          display: block;}
-          /* Reduce the maximum width for smaller screens */
-    
-        }
-
+     
 
 
 /* Media Query for screens smaller than 768px (mobile and tablet) */
@@ -232,25 +223,25 @@
     }
 }
 
+/* Media Query for tablet and mobile views */
+@media (max-width: 768px) {
+    .contain {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .image-container,
+    .text-container {
+        width: 90%;
+    }
+}
 
-  #my-image {
-    max-width: 100%;
-
-        height: auto;
-    
-        width: 100%;
-        background-size: cover;
-        background-position: center center;
-   
-    margin: 30px 30px; /* Center the image horizontally */
-  }
-
+ 
   /* Adjust showcase styles for smaller screens */
   #showcase {
     min-height: 50vh;
     padding: 30px  0px;
-    width: 100%;
+   
         background-size: cover;
         background-position: center center;
   }
@@ -287,16 +278,8 @@
     font-size: 12px;
   }
 
-   #my-image {
-       
-          height: 80%;
-       
-          max-width: 100%;
- 
-    display: block;
-    margin: 0 auto; /* Center the image horizontally */
-        }
-
+}
+  
   /* Adjust footer styles */
   footer {
     padding: 15px;
@@ -309,13 +292,10 @@
     padding: 3%;
   }
 
-}
 
 
 
 
-
-      
          main {
         display: flex;
         flex-direction: column;
@@ -348,74 +328,6 @@
       .team-member p {
         font-size: 14px;
       }
-
-
-
-
-
-
-
-
-
-/* Media Query for screens smaller than 768px (mobile and tablet) */
-@media screen and (max-width: 768px) {
-
-  /* Adjust the .contain layout for smaller screens */
-  .contain {
-    display: flex;
-    flex-direction: column; /* Stacking elements vertically */
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center text */
-    margin-bottom: 20px; /* Add some space at the bottom */
-  }
-
-  /* Adjust the .image-container styles */
-  .image-container {
-    margin-bottom: 15px; /* Add some space below the image */
-  }
-
-  /* Adjust the .text-container styles */
-  .text-container {
-    padding: 10px; /* Reduce padding for text container */
-  }
-
-  /* Adjust the h3 and ul styles for smaller screens */
-  .text-container h3 {
-    font-size: 20px;
-    margin-bottom: 8px;
-  }
-
-  .text-container ul {
-    padding-left: 15px; /* Add some left padding for the list */
-  }
-
-  .text-container li {
-    margin-bottom: 10px; /* Add space between list items */
-  }
-
-  .text-container p {
-    font-size: 14px; /* Decrease font size for readability */
-  }
-
-  .signup {
-    margin-top: 10px; /* Add space above the 'Sign up' link */
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
      
