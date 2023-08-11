@@ -96,7 +96,7 @@ header a:hover {
     width: 33%;
     margin: 0 auto;
     padding-top: 40px;
-    margin-right: 10%;
+    margin-right: 12%;
 
 }
 
@@ -166,6 +166,9 @@ a:hover {
 
 
 
+
+
+
 /* footer */
 
 footer {
@@ -192,3 +195,131 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+
+
+
+
+/* Media Query for tablet and mobile views */
+@media (max-width: 768px) {
+
+    /* Center align the header items */
+    header {
+        text-align: center;
+    }
+
+
+    .container {
+        width: 90%;
+        text-align: center;
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    /* Adjust header navigation links */
+    header ul {
+        margin-top: 20px;
+    }
+
+    /* Adjust header h1 */
+    header h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* Remove the float from header branding */
+    #branding {
+        float: none;
+        margin: 20px 0;
+    }
+
+    /* Adjust header navigation links */
+    header li {
+        display: block;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .showcase {
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+
+
+
+    #clubethos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #left-about,
+    #right-about,
+    #center-about {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    #center-about {
+        margin: 20px 0;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: 100%;
+        float: none;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .right-about-heading h2,
+    .right-about-heading p {
+        text-align: center;
+    }
+
+    #circle-container {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #circle-cover-bg {
+
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    hr {
+        border-top: 1px solid #3a3a3a;
+        width: 60%;
+        margin: 10px auto;
+    }
+
+    /* Add hover effect */
+    a:hover {
+        text-decoration: underline;
+        color: gold;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+/* end of media query */
