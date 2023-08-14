@@ -1,0 +1,354 @@
+body {
+    font: 15px/1.5 Arial, Lato;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 153, 51);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*  Global  */
+header {
+    background: black;
+    padding-top: 30px;
+    min-height: 70x;
+    border-bottom: red 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: inline;
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+    color: green;
+}
+
+header a:hover {
+    color: yellow;
+    letter-spacing: 0.05%;
+}
+
+#showcase {
+    background: url("./assets/images/about.me.jpg") no-repeat;
+    min-height: 80vh;
+
+
+    color: black;
+
+}
+
+a[href="signup.html"] .signup {
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+a[href="signup.html"] {
+    text-decoration: none;
+
+
+}
+
+a[href="signup.html"]:hover .signup {
+
+    text-decoration: underline;
+    height: 5ex;
+    color: gold
+}
+
+
+.about-section {
+    max-width: 1300px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 16px;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* image div and text besides eachother*/
+
+.contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two columns with equal width */
+    grid-gap: 20px;
+    max-width: 1300px;
+
+    margin-bottom: 40px;
+}
+
+.image-container,
+.text-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    flex: 1 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: 100%;
+
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#my-image {
+    max-width: 100%;
+    height: 100%;
+
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Query for screens smaller than 768px (mobile and tablet) */
+@media screen and (max-width: 768px) {
+
+    /* Adjust the container width and margin for smaller screens */
+    .container {
+        width: 90%;
+    }
+
+    /* Media Query for tablet and mobile views */
+    @media (max-width: 768px) {
+
+        /* Center align the header items */
+        header {
+            text-align: center;
+        }
+
+        /* Adjust header navigation links */
+        header ul {
+            margin-top: 20px;
+        }
+
+        /* Adjust header h1 */
+        header h1 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        /* Remove the float from header branding */
+        #branding {
+            float: none;
+            margin: 20px 0;
+        }
+
+        /* Adjust header navigation links */
+        header li {
+            display: block;
+            text-align: center;
+            padding: 10px 0px;
+        }
+    }
+
+    /* Media Query for tablet and mobile views */
+    @media (max-width: 768px) {
+        .contain {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .image-container,
+        .text-container {
+            width: 90%;
+        }
+    }
+
+
+    /* Adjust showcase styles for smaller screens */
+    #showcase {
+        min-height: 50vh;
+        padding: 30px 0px;
+
+        background-size: cover;
+        background-position: center center;
+    }
+
+    /* Adjust text styles in the about section */
+    .about-section h2 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .about-section p {
+        font-size: 14px;
+    }
+
+    /* Adjust team member styles */
+    .team-member {
+        max-width: 90%;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .team-member img {
+        width: 40px;
+        height: auto;
+        margin-bottom: 3px;
+    }
+
+    .team-member h3 {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+
+    .team-member p {
+        font-size: 12px;
+    }
+
+}
+
+/* Adjust footer styles */
+footer {
+    padding: 15px;
+    padding-bottom: 15px;
+}
+
+.social-networks i {
+    font-size: 140%;
+    margin: 2%;
+    padding: 3%;
+}
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.team-member {
+    max-width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.team-member img {
+    width: 20px;
+    height: 50px;
+
+    object-fit: 10px;
+    margin-bottom: 5px;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 14px;
+}
+
+
+
+/* footer */
+
+
+
+footer {
+
+    background-color: black;
+    border-top: #e8491d 3px solid;
+
+    color: #fff;
+
+    padding: 20px;
+    padding-bottom: 20px;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
