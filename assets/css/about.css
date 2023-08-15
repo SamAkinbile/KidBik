@@ -67,9 +67,8 @@ header a:hover {
 }
 
 #showcase {
-    background: url("./assets/images/about.me.jpg") no-repeat;
+    background: url("../images/about.me.jpg") no-repeat;
     min-height: 80vh;
-
 
     color: black;
 
