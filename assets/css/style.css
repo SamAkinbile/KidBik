@@ -69,7 +69,7 @@ header a:hover {
 
 .showcase {
     min-height: 80vh;
-    background: url("../images/home.jpeg") no-repeat center 9px;
+    background: url("../images/home.jpeg") no-repeat center 0.1px;
 }
 
 #clubethos {
