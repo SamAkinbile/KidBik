@@ -14,7 +14,7 @@ KidBike is for parents who value active childhoods, offering accessible cycling 
 KidBike's mission extends beyond cycling; it cultivates independence and a zest for exploration. Our project equips parents with resources to initiate their children into cycling, promoting fitness and confidence from the start.
 
 
-![Alt Text](/KidBik/readmeimages/Web capture_16-8-2023_222545_ui.dev.jpeg)
+![Alt Text](readmeimages/responsive.jpeg)
 
 
 
@@ -29,14 +29,14 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](readmeimages/nav.jpeg)
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](readmeimages/landingpage.jpeg)
 
 - __Club Ethos Section__
 
@@ -45,21 +45,16 @@ In this section, you should go over the different parts of your project, and des
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+- _
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](readmeimages/footer.jpeg)
 
-- __Gallery__
+- __About__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
