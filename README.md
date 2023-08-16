@@ -1,18 +1,22 @@
 # KidBike: Fostering Early Cycling Adventures
 
+#### Overview
+
 Welcome to KidBike, where we envision a world where children embrace cycling's freedom and adventure. Our mission focuses on developing a lifelong love for cycling in the early years, fostering physical skills, independence, and exploration.
 
-######Overview:
+
 KidBike introduces kids to cycling's thrill early on, nurturing a passion for health and adventure. Our structured learning ensures a strong foundation, while our project caters to busy parents who seek comprehensive support.
 
-######Target Audience:
+
 KidBike is for parents who value active childhoods, offering accessible cycling education and exploration. We aid time-strapped parents in providing their children with essential cycling skills for a healthier future.
 
-######Utility:
+
 KidBike's mission extends beyond cycling; it cultivates independence and a zest for exploration. Our project equips parents with resources to initiate their children into cycling, promoting fitness and confidence from the start.
 
 
-![Responsice Mockup](readmeimages/Web capture_16-8-2023_222545_ui.dev.jpeg)
+![Alt Text](/KidBik/readmeimages/Web capture_16-8-2023_222545_ui.dev.jpeg)
+
+
 
 ## Features 
 
