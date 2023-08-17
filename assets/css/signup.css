@@ -16,8 +16,7 @@ header {
     background: black;
     color: #ffffff;
     padding-top: 30px;
-    min-height: 70x;
-    /* Changed '70x' to '70px' */
+    min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
 
@@ -36,7 +35,7 @@ header ul {
 
 header li {
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
     justify-content: space-around;
     flex-direction: row;
 }
@@ -65,7 +64,7 @@ header .current a {
 
 header a:hover {
     color: yellow;
-    letter-spacing: 0.05%;
+    letter-spacing: 0.05em;
 }
 
 /* signup */
@@ -108,18 +107,14 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: gold;
-    /* Button background color on hover */
 }
 
 .sign {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    /* Adjust as needed */
     padding: 20px 0;
     padding-bottom: 200%;
-
-
 }
 
 /* Media Query for tablet and mobile views */
@@ -156,11 +151,7 @@ input[type="submit"]:hover {
 }
 
 /* footer */
-
-
-
 footer {
-
     background-color: black;
     border-top: #e8491d 3px solid;
     color: #fff;
@@ -169,8 +160,6 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-
-
 }
 
 .social-networks {
