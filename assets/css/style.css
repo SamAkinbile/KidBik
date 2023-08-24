@@ -14,7 +14,7 @@ body {
 /*  Global  */
 header {
     background: black;
-    color: #ffffff;
+
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
@@ -63,7 +63,7 @@ header .current a {
 }
 
 header a:hover {
-    color: yellow;
+
     letter-spacing: 0.1em;
 }
 
