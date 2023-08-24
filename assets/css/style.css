@@ -16,15 +16,15 @@ header {
     background: black;
     color: #ffffff;
     padding-top: 30px;
-    min-height: 70x;
+    min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
 
 header a {
-    color: #ffffff;
+    color: yellow;
     text-decoration: none;
     font-size: 15px;
-    letter-spacing: 2px;
+    letter-spacing: 0.05em;
     font-weight: bold;
 }
 
@@ -64,7 +64,7 @@ header .current a {
 
 header a:hover {
     color: yellow;
-    letter-spacing: 0.05%;
+    letter-spacing: 0.1em;
 }
 
 .showcase {
@@ -108,7 +108,7 @@ hr {
 
 .left-about-heading {
     width: 60%;
-    flex: right;
+    flex: none;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
